@@ -10,11 +10,14 @@
   
   body {
     font-family: sans-serif;
+    color: #ffffff
     margin: 0;
+
+ /* Navigation */
+
   }
    img {
-    background-color: #000;
-    margin-left: 40%;
+    margin-left: 30%;
    }
 
   header {
@@ -23,7 +26,7 @@
     align-items: center;
     height: 100px;
     padding: 0px 20px;
-    background-color: #000;
+    background: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
@@ -31,19 +34,16 @@
     display: flex;
     list-style-type: none;
     margin: 0;
-    background-color: #000;
     padding: 20px;
   }
   
   li {
     margin-left: 50px;
-    background-color: #000;
     padding-right: 20px;
   }
   
   li:last-child {
     border-right: none;
-    background-color: #000;
     padding-right: 50px;
 
   }
@@ -52,7 +52,6 @@
     color: #ffffff;
     font-family: cinzel;
     text-decoration: none;
-    background-color: #000;
     font-weight: 500;
     font-size: 16px;
     display: flex;
@@ -61,8 +60,6 @@
 
   .logo {
     cursor: pointer;
-    background-color: #000;
-
   }
 
   .nav_links {
@@ -82,5 +79,23 @@
     color: #454444
   }
  
-  
+/* Preview Section */
+
+  .container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff
+
+  }
+  /* Preview Section */
+
+  #preview {
+    background-image: url(C:\Users\justi\OneDrive\Documents\MyWebPortfolio\img\jamil.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+  }
  
