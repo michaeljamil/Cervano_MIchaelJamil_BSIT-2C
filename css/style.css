@@ -1,101 +1,79 @@
 /* Global Styles */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@500&family=Montserrat:wght@500&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #000;
+    font-family: 'Josefin Sans', Sans-serif;
   }
-  
-  body {
-    font-family: sans-serif;
-    color: #ffffff
-    margin: 0;
 
  /* Navigation */
-
-  }
-   img {
-    margin-left: 30%;
-   }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    padding: 0px 20px;
-    background: transparent;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
   
-  ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  li {
-    margin-left: 50px;
-    padding-right: 20px;
-  }
-  
-  li:last-child {
-    border-right: none;
-    padding-right: 50px;
-
-  }
-
-  a {
-    color: #ffffff;
-    font-family: cinzel;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    display: flex;
-    align-items: center;
-  }
-
-  .logo {
-    cursor: pointer;
-  }
-
-  .nav_links {
-    list-style: none;
-  }
-
-  .nav_links li {
-    display: inline-block;
-    padding: 0 20px;
-  }
-
-  .nav_links li a {
-    transition: all 0.3s ease 0s;
-  }
-
-  .nav_links li a:hover {
-    color: #454444
-  }
- 
-/* Preview Section */
-
-  .container {
-    min-height: 100vh;
+ .home {
+    height: 100vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff
+    background-image: url('../img/jamil.jpg');
+    background-size: 100% 160%;
+    background-position: center;
+ }
 
-  }
-  /* Preview Section */
+ nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+ }
 
-  #preview {
-    background-image: url(C:\Users\justi\OneDrive\Documents\MyWebPortfolio\img\jamil.jpg);
-    background-size: cover;
-    background-position: top center;
-    position: relative;
-  }
+.logo {
+  color: rgb(0, 0, 0);
+  font-family: sigmar;
+  font-size: 50px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+span {
+  color: #464646;
+  font-family: sigmar;
+}
+
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover{
+  color: #f9004d;
+  transition: 0.5s;
+}
+
+.button {
+  background-color: #939297;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform .4s;
+}
+.button:hover {
+  transform: scale(1.2);
+}
+
+
+
+  
  
