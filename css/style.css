@@ -11,12 +11,13 @@
   }
 
  /* Navigation */
-  
+
  .home {
     height: 100vh;
     width: 100%;
     background-image: url('../img/jamil.jpg');
-    background-size: 100% 150%;
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
     background-position: center;
  }
 
@@ -30,16 +31,33 @@
  }
 
 .logo {
-  color: rgb(0, 0, 0);
+  color: rgb(233, 233, 233);
   font-family: sigmar;
-  font-size: 50px;
+  font-size: 30px;
   letter-spacing: 1px;
   cursor: pointer;
+
 }
 
 span {
-  color: #464646;
+  color: #696969;
   font-family: sigmar;
+}
+
+.text{
+  color: white;
+  text-align: start;
+  margin-top: 20%;
+  margin-left: 25%;
+}
+
+.description{
+  font-size: 30px;
+  align-items: center;
+}
+
+.desc2{
+  text-align: justify;
 }
 
 nav ul li{
@@ -55,7 +73,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: #f9004d;
+  color: #131313;
   transition: 0.5s;
 }
 
