@@ -24,8 +24,8 @@
 
  nav {
   display: flex;
+  float: right;
   align-items: center;
-  justify-content: space-between;
   padding-top: 30px;
   padding-left: 8%;
   padding-right: 8%;
@@ -33,18 +33,31 @@
 
 .logo {
   color: rgb(233, 233, 233);
+  position:absolute;
+  margin-top: 30px;
+  margin-left: 100px;
+  float: left;
+  align-items: center;
   font-family: Bebas Neue;
   font-size: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 5px;
   cursor: pointer;
 
 }
 
 .text{
   color: white;
+  position: absolute;
   text-align: start;
   margin-top: 20%;
   margin-left: 25%;
+}
+
+h2{
+  font-size: 40px;
+}
+h1{
+  font-size: 15px;
 }
 
 .description{
