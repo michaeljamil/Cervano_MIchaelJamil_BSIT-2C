@@ -109,9 +109,7 @@ nav ul li a:hover{
 .button:hover {
   transform: scale(1.2);
 }
-.plugins{
-  margin-left: 10%;
-}
+
 .fa {
   padding: 10px;
   font-size: 30px;
@@ -138,12 +136,6 @@ nav ul li a:hover{
   background: #6c6c6c;
   color: white;
 }
-
-.fa-google {
-  background: #535353;
-  color: white;
-}
-
 
 .fa-instagram {
   background: #373737;
