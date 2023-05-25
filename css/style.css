@@ -150,6 +150,16 @@ nav ul li a:hover{
 
 /* About Section */
 
+img {
+  border-radius: 50%;
+  width: 25%;
+  height: 300px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+
+
 
   
  
