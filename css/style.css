@@ -571,88 +571,51 @@ span{
 
 .skills {
   background-color: #151515;
+  color: #fff;
   text-align: center;
   padding: 150px;
   height: 100vh;
 }
-
-.skills h1 {
-  font-size: 40px;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-  justify-items: center;
+ 
+.container{
+  background-color: #3b3b3b;
+  border-radius: 8px;
+  width: 420px;
+  padding: 50px;
+  display: flex;
+  row-gap: 30px;
+  flex-direction: column;
   align-items: center;
 }
 
-.skill-card {
+.circular-progress{
   position: relative;
-  width: 150px;
-  height: 150px;
-}
-
-.skill-card::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
-  background-color: #ddd;
+  background: conic-gradient(#c3c3c3 3.6deg, #383838 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.skill-card::before {
-  content: '';
+.circular-progress::before{
+  content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 100%;
+  height: 210px;
+  width: 210px;
+  background-color: #3b3b3b;
   border-radius: 50%;
-  background-color: #505050;
-  transform-origin: center left;
-  transform: rotate(0deg);
-  transition: transform 1s ease-in-out;
 }
 
-.skill-card:hover::before {
-  transform: rotate(180deg);
-}
-
-.skill-name {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  z-index: 1;
-}
-
-/* Progress Bar */
-.progress-bar {
+.progress-value{
   position: relative;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background-color: transparent;
-  overflow: hidden;
+  font-size: 40px;
+  font-weight: 600;
 }
 
-.progress-bar::after {
-  content: attr(data-progress);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 16px;
-  color: #040404;
+.skill-text{
+  font-size: 30px;
+  font-weight: 500;
+  color:#c7c7c7;
 }
-  
