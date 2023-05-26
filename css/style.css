@@ -27,6 +27,11 @@
   z-index: 100000;
  }
 
+ header a:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
  header.sticky{
   padding: 5px 100px;
   background: #3b3b3b;
@@ -70,6 +75,15 @@ header ul li{
   position: relative;
   margin-right: 20px; 
   list-style: none;
+}
+
+header ul li:hover{
+  background-color: #3a3a3a;
+  -webkit-transition: background-color 1000ms linear;
+  -moz-transition: background-color 1000ms linear;
+  -o-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
 }
 
 header ul li:last-child {
