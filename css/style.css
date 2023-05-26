@@ -178,7 +178,7 @@ footer{
   position: relative;
   width: 100%;
   height: 400px;
-  background-color: #101010;
+  background-color: #292929;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,6 +191,12 @@ footer p:nth-child(1){
   font-weight: bold;
 }
 
+footer p:nth-child(2){
+  font-size: 15px;
+  color: white;
+  margin-bottom: 5px;;
+}
+
 footer p:nth-child(4){
   color: white;
   font-size: 17px;
@@ -198,7 +204,32 @@ footer p:nth-child(4){
   text-align: center;
   line-height: 26px;
 }
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#1d1d1d;
+  margin: 22px 10px ;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+}
 
+.social i{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#1d1d1d;
+  margin: 22px 10px ;
+  border-radius: 50%;
+}
 
 /* About */
 
@@ -405,12 +436,86 @@ span{
 
 
 /* Profile Section */
-.myprofile{
-  background-color: #151515 ;
+/* styles.css */
+
+.myprofile {
+  background-color: #151515;
+  padding: 20px;
   width: 100%;
   color: rgb(255, 255, 255);
   height: 100vh;
   margin-bottom: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.profile-heading h1 {
+  font-size: 50px;
+  margin: 0;
+  line-height: 1;
+}
+.profile-section {
+  display: flex;
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.basic-info,
+.other-info {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.prof {
+  height: fit-content;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+}
+
+.info-box {
+  background-color: #2f2f2f;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.info-box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.info-box p {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+
+.info-box i {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.basic-info-heading,
+.other-info-heading {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Hobbies Section */
