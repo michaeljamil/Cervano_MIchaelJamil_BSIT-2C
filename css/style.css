@@ -12,6 +12,7 @@
     min-height: 100vh;
   }
 
+
  /* Home  */
 
  header{
@@ -579,13 +580,14 @@ span{
 }
 
 .skill-h1 {
-  letter-spacing: 2px;
   margin-top: 10%;
-  margin-bottom: 5%;
   position: relative;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
 }
-
 .container {
   background-color: #3b3b3b;
   border-radius: 10px;
