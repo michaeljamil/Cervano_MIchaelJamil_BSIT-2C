@@ -12,7 +12,6 @@
     min-height: 100vh;
   }
 
-
  /* Home  */
 
  header{
@@ -645,19 +644,21 @@ span{
 /* Contact */
 
 .contact{
+  background-color: #242424;
   height: 100vh;
 }
-.contact-container{
-  color: #222121;
+.contacts{
+  color: #ffffff;
+  border-style: double;
   max-width: 700px;
   border-radius: 10px;
-  margin: 100px auto 150px;
+  margin: 150px auto 80px;
   padding: 20px;
-  background-color: #868686;
+  background-color: #161616;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.contacts h2 {
   text-align: center;
   font-size: 30px;
   margin-bottom: 10px;
