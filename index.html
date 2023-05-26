@@ -9,26 +9,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-        <nav>
+    <header>
+      <a href="#" class="logo"> JAMIL</a>
           <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="skills.html">SKILLS</a></li>
           </ul>
         <a href ='#' class="button">Contact Me</a>
-    </nav>
-       <div class="home">
-          <h2 class="logo">JAMIL</h2>
-          
-        <div class="text">
-            <h3>Hi, I am </h3>
-            <h2>Michael Jamil M. Cervaño</h2>
-            <h1>I am a BS Information Technology Student</h1>
-          <a href="https://www.facebook.com/jamiru.sama/" class="fa fa-facebook"></a>
-          <a href="https://twitter.com/mchljml" class="fa fa-twitter"></a>
-          <a href="https://www.instagram.com/mchljml/" class="fa fa-instagram"></a>
-        </div>
-      </div>
+    </header>
+    <section class="home">
+      <div class="text">
+        <h3>Hi, I am </h3>
+        <h2>Michael Jamil M. Cervaño</h2>
+        <h1>I am a BS Information Technology Student</h1>
+      <a href="https://www.facebook.com/jamiru.sama/" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/mchljml" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/mchljml/" class="fa fa-instagram"></a>
+    </div>
+    </section>
+        
+    <script type="text/javascript">
+      window.addEventListener("Scroll", function(){
+        var header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      })
+    </script>
 
   <div class="contact-me">
     <p> Let me Get You A Beautiful Website</p>
